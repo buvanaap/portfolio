@@ -1,0 +1,194 @@
+.header{
+    text-align: center;
+}
+.left-section{
+    background-color: #808080;
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    height:100%;
+    width:80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-section img{
+    height:60px;
+    padding-left: 8px;
+}
+a{
+    color: black;
+}
+.home-section a{
+    text-decoration: none;
+    font-family: "Montserrat",sans-serif;
+    width:100%;
+}
+.home-section a:hover{
+    background-color: hsl(0, 1%, 64%);
+    
+    color: black;
+}
+
+.about-section,.home-section,.photo-section,.contact-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin-top: 30px;
+    flex-direction: column;
+}
+.about-section img{
+     width:60px;
+     padding-left: 7px;
+}
+.about-section a{
+    text-decoration: none;
+    font-family: "Montserrat",sans-serif;
+    width: 100%;
+}
+.about-section a:hover{
+    background-color: hsl(0, 1%, 64%);
+    
+  
+    color: black;
+}
+.photo-section img{
+    height: 70px;
+    padding-left: 5px;
+}
+.photo-section a{
+    text-decoration: none;
+    font-family: "Montserrat",sans-serif;
+    width:100%;
+}
+.photo-section a:hover{
+    background-color: hsl(0, 1%, 64%);
+  
+    color: black;
+}
+.contact-section img{
+    height:60px;
+   
+    width: 100%;
+}
+.contact-section a{
+    text-decoration: none;
+    font-family:"Montserrat",sans-serif ;
+}
+.contact-section a:hover{
+    background-color: hsl(0, 1%, 64%);
+   
+    color: black;
+}
+#About{
+    margin-left: 10%;
+    
+}
+
+#About h2{
+    display: inline-block;
+    position: relative;
+    padding-bottom: 7px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+#About h2::after{
+    content: " ";
+    position: absolute;
+    left:0;
+    bottom:-5px;
+    width: 150%;
+    height:2px;
+    background-color: black;
+}
+.photography{
+    border:2px solid;
+    background:linear-gradient(to right, #808080 ,white);
+    text-align: end;
+    padding:5px;
+    width:80%;
+}
+.web-design{
+    border:2px solid;
+    background:linear-gradient(to right, #808080 ,white);
+    text-align: end;
+    padding:5px;
+    width:80%;
+}
+.photoshop{
+    border:2px solid;
+    background:linear-gradient(to right, #808080 ,white);
+    text-align: end;
+    padding:5px;
+    width:80%;
+}
+
+.box-2{
+    margin-top: 30px;
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    height:100px;
+    width:80%;
+    display: flex;
+    
+    justify-content: space-around;
+   
+}
+.content h5{
+   margin: 15px;
+   
+   font-size: 2em;
+}
+.content p{
+    margin-top:-5px;
+    margin-left: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.dn-btn{
+    margin-top:30px;
+    padding: 10px;
+    background: inherit;
+    border-style: solid;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#Photo{
+    margin-left:15%;
+    margin-top: 30%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+.item{
+    position: relative;
+    overflow: hidden;
+}
+.item img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.item-1{
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.item-2{
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.item-3, .item-4 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.item-5, .item-6, .item-7 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+  
+
+
+
